@@ -67,7 +67,7 @@ public class SafariTest {
 		String idMail = info.getProperty("id_mail");
 		String idPassword = info.getProperty("id_password");
 		String btCl = info.getProperty("bt_cl");
-		String pasWord = "020202";
+		String pasWord = "";
 		String title = "Facebook";
 
 		assertThat(title, equalTo(Safari.logIn(driver, idMail, phone, idPassword, pasWord, btCl)));

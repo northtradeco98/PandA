@@ -30,7 +30,7 @@ public class SfariTest2 {
 		String idPassword = info.getProperty("id_password");
 		String btCl = info.getProperty("bt_cl");
 		String xPathFriends= info.getProperty("x_pathfriends");
-		String pasWord = "020202";
+		String pasWord = "";
 
 		Safari.maxWindWebBrowser(driver);
 		Safari.openWebPage(driver, url);
